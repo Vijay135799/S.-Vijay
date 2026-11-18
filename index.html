@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="S. Vijay — data analyst portfolio with an interactive CSV-powered dashboard." />
+    <meta name="theme-color" content="#07121f" />
+    <title>S. Vijay | Data Analyst Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&family=Playfair+Display:ital,wght@0,500;0,600;1,500;1,600&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="enhancements.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <a class="brand" href="#home" aria-label="Vijay home"><span>SV</span><b>Vijay<i>.</i></b></a>
+      <button class="menu-button" aria-label="Open navigation" aria-expanded="false">☰</button>
+      <nav aria-label="Main navigation">
+        <a href="#about">About</a><a href="#skills">Skills</a><a href="#projects">Projects</a><a href="#workflow">Workflow</a><a href="#dashboard">Dashboard</a><a href="#contact">Contact</a>
+      </nav>
+      <div class="header-actions"><button class="theme-button" aria-label="Change color theme">☀</button><a class="talk-button" href="#contact">Let’s talk ↗</a></div>
+    </header>
+
+    <main>
+      <section id="home" class="hero wrap">
+        <div class="hero-copy">
+          <p class="eyebrow"><i></i> AVAILABLE FOR OPPORTUNITIES</p>
+          <h1>Turning data into <em>insights.</em><br />Transforming insights into <em>impact.</em></h1>
+          <p class="intro">I’m <strong>S. Vijay</strong>, an aspiring data analyst who turns complex information into clear, decision-ready stories.</p>
+          <div class="actions"><a class="button primary" href="#projects">Explore my work <span>↓</span></a><a class="button secondary" href="https://drive.google.com/file/d/1LZDs-FB_R7DOv8LPbCejHQ6a7oZGpvyy/view?usp=drivesdk" target="_blank" rel="noreferrer">Download resume <span>↗</span></a></div>
+          <div class="meta"><span>⌖ Dharmapuri, Tamil Nadu</span><span>✦ Python · SQL · BI</span></div>
+        </div>
+        <div class="hero-dashboard panel">
+          <div class="dash-title"><span class="tiny-mark">▥</span><span>Portfolio dashboard</span><b>•••</b></div>
+          <div class="mini-kpis"><div><small>REVENUE</small><b id="latestRevenue">$72k</b><i>Latest month</i></div><div><small>PROFIT</small><b id="latestProfit">$27k</b><i>CSV-driven</i></div></div>
+          <svg id="heroChart" viewBox="0 0 440 145" role="img" aria-label="Monthly revenue chart"></svg>
+          <div class="dash-foot"><span>Jan—Aug · sample data</span><span><i></i> Revenue</span></div>
+        </div>
+      </section>
+
+      <section id="about" class="wrap section about">
+        <p class="section-tag"><span>01</span> ABOUT ME</p>
+        <div class="two-col"><h2>A curious mind for <em>meaningful</em> numbers.</h2><div><p class="lead">I’m building a career at the intersection of analytical thinking, business context, and clear communication.</p><p>I enjoy taking raw, imperfect datasets through a thoughtful workflow—from cleaning and exploration to visual storytelling—so teams can see what matters and ask better questions.</p><a class="text-link" href="#contact">Get in touch ↗</a></div></div>
+      </section>
+
+      <section id="skills" class="wrap section">
+        <div class="section-head"><div><p class="section-tag"><span>02</span> TOOLKIT</p><h2>Tools for the full <em>data journey.</em></h2></div><p>Comfortable across the analytics workflow, with a focus on choosing the right tool for the question—not just the chart.</p></div>
+        <div class="skill-grid">
+          <article><span>⌘</span><h3>Programming</h3><p>Python · SQL</p></article><article><span>▤</span><h3>Data analysis</h3><p>Excel · Pandas · NumPy</p></article><article><span>▥</span><h3>Visualization</h3><p>Power BI · Tableau · Seaborn</p></article><article><span>▦</span><h3>Databases</h3><p>MySQL · PostgreSQL</p></article>
+        </div>
+      </section>
+
+      <section id="projects" class="wrap section">
+        <div class="section-head"><div><p class="section-tag"><span>03</span> SELECTED WORK</p><h2>Built around <em>real questions.</em></h2></div><p>Portfolio concepts use sample or public data and are clearly marked—no fictional business outcomes.</p></div>
+        <div class="project-grid">
+          <article class="project-card"><div class="project-icon">▥</div><small>SAMPLE PROJECT · BI DASHBOARD</small><h3>Sales Performance Analysis</h3><p>A decision-ready view of revenue, profit, products, and regional momentum.</p><span>Power BI · Excel · SQL</span><details><summary>Case study</summary><p><b>Objective:</b> compare performance drivers across time, category, and region. <b>Method:</b> cleaned illustrative transaction data, calculated revenue/profit KPIs, and designed drill-down views. All outcomes are sample-only until validated against a real dataset.</p></details></article>
+          <article class="project-card blue"><div class="project-icon">◎</div><small>SAMPLE PROJECT · PEOPLE ANALYTICS</small><h3>HR Analytics Dashboard</h3><p>A workforce lens for understanding attrition patterns, team composition, and HR KPIs.</p><span>Tableau · Excel · Data cleaning</span><details><summary>Case study</summary><p><b>Objective:</b> make workforce patterns easier to explore responsibly. <b>Method:</b> validated categories, created headcount and attrition measures, and built privacy-conscious segment views. No causal claim is made from descriptive patterns.</p></details></article>
+          <article class="project-card purple"><div class="project-icon">✦</div><small>SAMPLE PROJECT · PREDICTIVE ANALYSIS</small><h3>Customer Churn Analysis</h3><p>Exploring customer behavior to identify retention questions worth testing.</p><span>Python · SQL · Seaborn</span><details><summary>Case study</summary><p><b>Objective:</b> surface patterns for future retention experiments. <b>Method:</b> handled missing values, profiled tenure and usage fields, and compared segments using EDA. Insights are demonstrative, not production predictions.</p></details></article>
+          <article class="project-card gold"><div class="project-icon">↗</div><small>SAMPLE PROJECT · EXECUTIVE REPORTING</small><h3>Financial Performance Analysis</h3><p>A concise monthly view for monitoring revenue, costs, and profit margin.</p><span>Power BI · DAX · Excel</span><details><summary>Case study</summary><p><b>Objective:</b> provide a shared monthly reporting view. <b>Method:</b> mapped a reporting calendar and calculated revenue, cost, and margin measures from illustrative data. No real business results are represented.</p></details></article>
+        </div>
+      </section>
+
+      <section id="workflow" class="wrap section workflow">
+        <div class="section-head"><div><p class="section-tag"><span>04</span> INTERNSHIP WORKFLOW</p><h2>From a question to <em>clear direction.</em></h2></div><p>A transparent, repeatable workflow that keeps the analysis connected to the decision it supports.</p></div>
+        <ol class="workflow-list"><li><b>01</b><div><h3>Understand the business problem</h3><p>Clarify the stakeholder, decision, scope, and success measures.</p></div></li><li><b>02</b><div><h3>Collect & inspect the dataset</h3><p>Check grain, fields, coverage, assumptions, and data quality.</p></div></li><li><b>03</b><div><h3>Clean & preprocess data</h3><p>Resolve duplicates, missing values, inconsistent formats, and outliers.</p></div></li><li><b>04</b><div><h3>Explore patterns & calculate KPIs</h3><p>Use EDA to find relationships, trends, and questions worth testing.</p></div></li><li><b>05</b><div><h3>Build visuals, insights & final report</h3><p>Present a careful narrative with recommendations and limitations.</p></div></li></ol>
+      </section>
+
+      <section class="wrap section outcome-section">
+        <div class="outcome-card"><div><p class="section-tag"><span>05</span> INTERNSHIP OUTCOME</p><h2>Progress you can <em>show,</em> not just say.</h2><p>Use this area to record real deliverables and verified impact. Until then, it communicates the kind of evidence a strong internship project should include.</p></div><div class="outcome-grid"><span>✓ Datasets analyzed <small>Add actual detail</small></span><span>✓ Data-quality improvements <small>Add actual detail</small></span><span>✓ Reports & dashboards developed <small>Add actual detail</small></span><span>✓ KPIs & trends identified <small>Add actual detail</small></span><span>✓ Insights & recommendations <small>Add actual detail</small></span><span>✓ Final presentation delivered <small>Add actual detail</small></span></div></div>
+      </section>
+
+      <section id="education" class="wrap section education">
+        <div class="section-head"><div><p class="section-tag"><span>06</span> CONTINUOUS LEARNING</p><h2>Learning with <em>intent.</em></h2></div><p>Editable placeholders make it easy to add verified qualifications as they are completed.</p></div>
+        <div class="learning-grid"><article><span>◈</span><h3>Education</h3><p>Add degree, institution, completion year, and relevant coursework.</p></article><article><span>✦</span><h3>Certifications</h3><p>Add only verified certificates, issuing organizations, and dates.</p></article><article><span>↗</span><h3>Currently exploring</h3><p>Data storytelling, BI dashboards, and practical business analysis.</p></article></div>
+      </section>
+
+      <section id="dashboard" class="wrap section dashboard-section">
+          <div class="section-head"><div><p class="section-tag"><span>07</span> INTERACTIVE PREVIEW</p><h2>Dashboards that make <em>patterns visible.</em></h2></div><p>Every visual below is calculated in the browser from the included CSV file.</p></div>
+        <div class="dashboard panel">
+          <aside class="dashboard-nav"><p>REPORT CONTROLS</p><button class="active" data-view="overview">Overview <b>✓</b></button><button data-view="regional">Regional performance</button><button data-view="product">Product mix</button><button data-view="trend">Monthly trend</button><small>↻ <span>Data source<br /><strong>portfolio-sales.csv</strong></span></small></aside>
+          <div class="report">
+            <div class="report-head"><div><small>DEMO REPORT · CSV-DRIVEN</small><h3 id="reportTitle">Sales performance overview</h3></div><span>JAN — AUG 2026</span></div>
+            <div class="kpi-grid"><article><small>REVENUE</small><b id="revenueKpi">—</b><span>Sales recorded</span></article><article><small>PROFIT</small><b id="profitKpi">—</b><span>Profit recorded</span></article><article><small>MARGIN</small><b id="marginKpi">—</b><span>Profit / revenue</span></article></div>
+            <div class="charts"><article><h4 id="mainChartTitle">Revenue & profit trend</h4><svg id="mainChart" viewBox="0 0 620 260" role="img" aria-label="Analytics chart"></svg></article><article><h4 id="sideChartTitle">Revenue by category</h4><div id="breakdownChart" class="breakdown"></div></article></div>
+            <p id="dashboardStatus" class="status" aria-live="polite">Loading CSV data…</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="wrap section contact">
+        <div><p class="section-tag"><span>08</span> CONTACT</p><h2>Let’s make the next <em>decision clearer.</em></h2><p>Open to data analyst opportunities, meaningful projects, and conversations about turning data into useful direction.</p><a class="email" href="mailto:svijay13579@gmail.com">svijay13579@gmail.com ↗</a><p class="social-links"><a href="https://www.linkedin.com/in/vijay-s-350429420?utm_source=share_via&utm_content=profile&utm_medium=member_ios" target="_blank" rel="noreferrer">LinkedIn ↗</a><span title="Add GitHub profile URL when available">GitHub link to add</span></p></div>
+        <form id="contactForm" novalidate><label>Name<input name="name" placeholder="Your name" /></label><label>Email<input name="email" type="email" placeholder="you@email.com" /></label><label>Message<textarea name="message" rows="5" placeholder="Tell me about your project or opportunity…"></textarea></label><button class="button primary" type="submit">Send message <span>↗</span></button><p class="form-message" aria-live="polite"></p></form>
+      </section>
+    </main>
+    <footer class="wrap"><a class="brand" href="#home"><span>SV</span><b>Vijay<i>.</i></b></a><p>Designed for clarity. Built for the next opportunity.</p><a href="#home">Back to top ↗</a></footer>
+    <script src="script.js"></script>
+  </body>
+</html>

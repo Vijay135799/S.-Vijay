@@ -1,0 +1,17 @@
+month,region,category,revenue,profit
+Jan,South,Technology,22000,7000
+Jan,North,Office,16000,5000
+Feb,South,Technology,26000,9000
+Feb,West,Furniture,20000,6000
+Mar,East,Office,18000,5000
+Mar,North,Technology,25000,8000
+Apr,West,Technology,31000,11000
+Apr,South,Furniture,23000,7000
+May,East,Office,21000,7000
+May,North,Technology,29000,10000
+Jun,South,Technology,36000,13000
+Jun,West,Office,28000,10000
+Jul,East,Furniture,25000,8000
+Jul,North,Technology,35000,13000
+Aug,South,Technology,41000,16000
+Aug,West,Office,31000,11000
